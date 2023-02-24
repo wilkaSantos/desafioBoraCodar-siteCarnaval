@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/global.css">
+        <script src="./js/index.js" type="module" defer></script>
+
+        <title>Encontre seu Bloco</title>
+    </head>
+    <body>
+        <div class="page">
+            <header>
+                <img src="./images/feathers.svg" alt="Imagem de penas coloridas">
+                <section class="container-info">
+                    <p class="legend">Find Your Block</p>
+                    <h1 class="title">Encontre os <span>melhores blocos</span> de carnaval de 2023</h1>
+                    <div class="wrappedFieldsSearch">
+                        <img class="icoSearch" src="./images/ico-search.svg" alt="icone vermelho lupa">
+                        <input type="text" name="searchField" id="searchField" placeholder="Pesquise por nome">
+                        <img class="icoLocalization" src="./images/ico-location.svg" alt="icone vermelho localização">
+                        <select name="cityField" id="cityField">
+                            <option value="0">Selecione uma cidade</option>
+                            <option value="1">Atalaia</option>
+                            <option value="2">Maceió</option>
+                            <option value="3">Marechal Deodoro</option>
+                            <option value="4">Penedo</option>
+                        </select>
+                        <button class="searchButton">Buscar Bloco</button>
+                    </div>
+                </section>
+                <img class="imageWoman" src="./images/carnivalWoman.svg" alt="Imagem de uma Mulher no Carnaval">
+            </header>
+            <main>
+                <section class="container-titleBlock">
+                    <p class="text-recommended">Blocos recomendados</p>
+                    <div class="wrappedButtons">
+                        <button class="buttonList buttonActive">Lista</button>
+                        <button class="buttonMap buttonDesable">Mapa</button>
+                    </div>
+                </section>
+                <div class="App"></div>
+            </main>
+            <footer>
+                <p class="footer-text">by Wilka Santos - Todos os Direitos Reservados</p>
+            </footer>
+        </div>
+    </body>
+</html>

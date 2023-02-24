@@ -1,0 +1,41 @@
+
+@import './block.css';
+@import './main.css';
+@import './footer.css';
+@import './header.css';
+@import './index.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --ff-site: 'Roboto', sans-serif;
+
+    --bg-page: #FFFFFE;
+    --bg-header: #F8F8FF;
+    --bg-fields: #F4F4FF;
+    --bg-containerFields: #FFFFFF;
+    --bg-buttonSearch: #6246EA;
+    --bg-buttonSearch-hover: #4d36bd;
+
+    --c-text-legend: #E45858;
+    --c-text-primary: #121214;
+    --c-text-secundary: #6246EA;
+    --c-text-buttons: #FFFFFF;
+    --c-text-fields: #7C7C8A;
+    --c-text-descBlock: rgba(0, 0, 0, 0.75);
+
+    --c-line: #EAEAEA;
+}
+
+.page{
+    width: 100%;
+    background: var(--bg-page);
+}

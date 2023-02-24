@@ -1,0 +1,57 @@
+main{
+    width: 121.6rem;
+    margin: 10rem auto;
+    /*border: 1px solid #000;*/
+}
+
+.container-titleBlock{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-recommended{
+    font-family: var(--ff-site);
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 140%;
+
+    color: var(--c-text-primary);
+}
+
+.wrappedButtons{
+    padding: .8rem;
+    border: 1px solid #EAEAEA;
+    border-radius: .6rem;
+
+}
+
+.wrappedButtons button{
+    width: 8.6rem;
+    height: 3.2rem;
+
+    border-radius: .5rem;
+    border: none;
+
+    font-family: var(--ff-site);
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+}
+
+.buttonActive{
+    background: var(--bg-buttonSearch);
+    color: var(--c-text-buttons);
+}
+
+.buttonDesable{
+    background: none;
+    color: var(--c-text-secundary);
+}
+
+.App{
+    width: 100%;
+    margin-top: 4rem;
+}
