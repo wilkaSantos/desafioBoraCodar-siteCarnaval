@@ -36,7 +36,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Desenvolver um site de carnaval, onde o usuário possa buscar e encontrar os blocos de carnaval pelas Cidades e apresentar os principais blocos.
 
-- [Visite o projeto](https://github.com/wilkaSantos/desafioBoraCodar-siteCarnaval)
+- [Visite o projeto](https://wilkasantos.github.io/desafioBoraCodar-siteCarnaval/)
 
 <br>
 ## 🔖 Layout
